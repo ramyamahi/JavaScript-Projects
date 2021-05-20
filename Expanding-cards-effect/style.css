@@ -1,0 +1,24 @@
+body {
+  margin: auto;
+  text-align: center;
+  width: 50vw;
+}
+
+.container {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  height: 60vh;
+  flex: 0.5;
+  border-radius: 20px;
+  transition: flex 0.7s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.card.active {
+  flex: 1;
+}
