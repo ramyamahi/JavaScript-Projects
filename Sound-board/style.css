@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
