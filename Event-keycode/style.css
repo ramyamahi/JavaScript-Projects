@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid #eee;
+}
