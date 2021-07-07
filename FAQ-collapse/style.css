@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d3d3d3;
+}
+
+.faq-container {
+  width: 600px;
+}
+
+.faq {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.faq.active {
+  background-color: #fff;
+}
+
+.faq-text {
+  display: none;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
